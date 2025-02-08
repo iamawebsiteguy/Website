@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>daniel.tf</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: hidden;
+      }
+      html,
+      body {
+        width: 100%;
+      }
+      #daniel1 {
+        position: absolute;
+        left: 93px;
+        top: -35px;
+        font-family: cursive;
+        font-size: 50px;
+      }
+      #daniel2 {
+        position: absolute;
+        left: 83.5px;
+        top: 20px;
+      }
+      #mijncraft,
+      #click {
+        position: absolute;
+        top: 75px;
+        left: 7px;
+        height: 100px;
+        width: 300px;
+        font-size: 50px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      #click {
+        top: 180px;
+      }
+      #one,
+      #two {
+        display: none;
+        position: absolute;
+        cursor: grab;
+        z-index: 5;
+      }
+      #clicker {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        margin-top: -10px;
+        height: 20px;
+        width: 80px;
+        margin-left: -40px;
+      }
+      #stats {
+        position: relative;
+        top: 85%;
+        left: 5px;
+      }
+      #switch {
+        display: none;
+        position: absolute;
+        bottom: 5px;
+        right: 7.5px;
+      }
+      #item1 {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="daniel1">daniel.tf</h1>
+    <h3 id="daniel2">𝕨𝕚𝕝𝕝𝕖𝕜𝕖𝕦𝕣𝕚𝕘𝕖 𝕕𝕚𝕟𝕘𝕖𝕟</h3>
+    <button id="mijncraft">ᗰIᒍᑎ ᑕᖇᗩᖴT</button>
+    <button id="one"></button>
+    <button id="two"></button>
+    <button id="switch">Items</button>
+    <button id="click">Click. ᵃᶜʰᶦᵉᵛᵉᵐᵉⁿᵗˢ</button>
+    <button id="clicker" style="display: none">Click me</button>
+    
+    <button id="item1">💧 water</button>
+    <p id="stats" style="display:none">Stats: <br> Clicks: <br> Achievements:</p>
+    <script src="mijn_craft.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script src="clicker.js"></script>
+  </body>
+</html>
